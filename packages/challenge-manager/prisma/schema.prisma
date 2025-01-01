@@ -15,7 +15,7 @@ enum SubmissionStatus {
 }
 
 model Challenge {
-  id          String   @id @default(cuid())
+  id          String   @id @default(uuid())
   title       String
   description String
   createdAt   DateTime @default(now()) @map("created_at")
@@ -28,7 +28,7 @@ model Challenge {
 }
 
 model Submission {
-  id            String           @id @default(cuid())
+  id            String           @id @default(uuid())
   repositoryURL String           @map("repository_url")
   status        SubmissionStatus @default(Pending)
   grade         Int
