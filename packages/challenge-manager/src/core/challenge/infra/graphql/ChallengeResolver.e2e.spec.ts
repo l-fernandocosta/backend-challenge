@@ -1,6 +1,6 @@
 import * as request from 'supertest';
 
-import { GraphqlExceptionFilter } from '@/shared/infra/interceptor/graphql-exception.filter';
+import { GraphqlExceptionFilter } from '@/shared/infra/interceptor/GraphQLExceptionFilter';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { INestApplication } from '@nestjs/common';
 import { APP_FILTER } from '@nestjs/core';
