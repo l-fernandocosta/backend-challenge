@@ -1,0 +1,1 @@
+export const InvalidSubmissionStatusExceptionMessage = 'Invalid submission status, it must be one of: Pending, Error, Done';

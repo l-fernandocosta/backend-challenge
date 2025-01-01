@@ -1,0 +1,1 @@
+export const InvalidRepositoryURLExceptionMessage = `Invalid URL: Repository URL must be a valid GitHub URL`;
